@@ -1,0 +1,173 @@
+html, body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bouton {
+  text-decoration: none;
+  width: 14rem;
+  height: 3.5;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+  margin-top: 2rem;
+}
+
+.bouton-v {
+  background-color: #B2D234;
+  color: white;
+}
+
+.bouton-b {
+  background-color: white;
+  color: #B2D234;
+}
+
+header {
+  background-image: url(img/header-background.png);
+}
+header .navigation-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header .navigation-logo .logo {
+  height: 69px;
+  width: 200px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+header .navigation-logo nav ul {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+header .navigation-logo nav ul li {
+  list-style-type: none;
+  display: flex;
+}
+header .navigation-logo nav ul li .accueil {
+  text-decoration: underline;
+}
+header .navigation-logo nav ul li a {
+  text-decoration: none;
+  padding: 6px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+header .navigation-logo nav ul li .com {
+  background-color: white;
+  color: #B2D234;
+}
+header .titre_mongo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .titre_mongo h1 {
+  color: white;
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+header .titre_mongo > div h4 {
+  font-size: 3rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 14rem;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0, 5rem;
+  position: relative;
+  left: 4rem;
+  bottom: 32px;
+  transform: rotate(-9deg);
+}
+header .reseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+header .reseaux img {
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+header .reseaux img:nth-of-type(3n) {
+  padding-right: 25px;
+}
+
+.salade {
+  background-image: url(img/Welcome.png);
+  display: flex;
+}
+.salade .salade-sur-mesure {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8.5rem;
+  padding-bottom: 8.5rem;
+  margin-left: 7%;
+}
+.salade .salade-sur-mesure h2 {
+  color: #B2D234;
+  font-weight: 600;
+  font-size: 52px;
+  max-width: 35rem;
+}
+.salade .salade-sur-mesure p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 29rem;
+}
+.amour {
+  background-image: url(img/amour.png);
+  display: flex;
+  justify-content: end;
+}
+.amour .prepare-amour {
+  background-color: #B2D234;
+  opacity: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+  margin: 4.5rem 8.5rem;
+  text-align: center;
+}
+.amour .prepare-amour h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 52px;
+  max-width: 27.5rem;
+}
+.amour .prepare-amour p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 26rem;
+}
+.amour .prepare-amour a {
+  opacity: 100%;
+  margin-bottom: 2.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
